@@ -1,5 +1,5 @@
 # Проектная работа «Сложно сосредоточиться»
 
 ```
-https://github.com/OutZzzz/slozhno-sosredotochitsya-fd#
+https://github.com/OutZzzz/slozhno-sosredotochitsya-fd
 ```
