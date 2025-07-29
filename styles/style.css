@@ -5,7 +5,6 @@
   font-family: 'IBM Plex mono', sans-serif;
   font-size: var(--main-font-size);
   background-color: var(--bg-color);
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
@@ -108,6 +107,8 @@
 
 /* конец блока header */
 
+/* начало блока content */
+
 .title-decor {
   justify-self: end;
   align-self: center;
@@ -138,7 +139,7 @@
   line-height: 23.6px;
 }
 
-.card {
+.content__section-card {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -160,4 +161,15 @@
 
 .subtitle {
   font-weight: 400;
+}
+
+.content__section-gallery {
+  display: grid;
+  gap: 10px;
+}
+
+.content__section-image {
+  display: block;
+  block-size: 100%;
+  max-inline-size: 355px;
 }
