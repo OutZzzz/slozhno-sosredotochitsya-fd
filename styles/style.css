@@ -90,6 +90,14 @@
   border: 1px solid var(--accent-color);
 }
 
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--accent-color);
+}
+
 .header__title {
   justify-self: start;
   align-self: center;
@@ -167,6 +175,23 @@
   line-height: 23.4px;
 }
 
+.content__section__paragraph-link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.content__section__paragraph-link:hover {
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.content__section__paragraph-link:focus {
+  outline: none;
+}
+
+.content__section__paragraph-link:focus-visible {
+  outline: 1px solid var(--main-text-color);
+}
+
 .subtitle {
   font-weight: 400;
 }
@@ -179,7 +204,8 @@
 .content__section-image {
   display: block;
   block-size: 100%;
-  max-inline-size: 355px;
+  /* max-inline-size: 355px; */
+  inline-size: 100%;
 }
 
 /* Конец блока content */
