@@ -251,6 +251,7 @@
   }
 
   .content-section {
+    grid-template-columns: repeat(3, 1fr);
     margin-block-end: 80px;
   }
 
@@ -262,16 +263,12 @@
     max-inline-size: 364px;
   }
 
-  .content-section {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .content-section:nth-child(1) .content__section-header {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     align-self: start;
   }
-  
+
   .content-section:nth-child(1) .content__section-card {
     grid-column: 2 / 4;
     
