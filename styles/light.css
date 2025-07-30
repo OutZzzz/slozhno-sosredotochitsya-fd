@@ -10,11 +10,30 @@
   */
   --bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
+  --title-color: #FFC2E6;
+  --accent-color: #353430;
+  --shadow-color: #FF8DCB;
+  --bg-title-color: #FF8DCB;
+  --content-title-color: #353430;
+  --text-color: #353430;
+}
+
+html.theme-light .header-decor {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
-  .root {
+  :root {
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #FFF1F7;
+    --title-color: #FFC2E6;
+    --accent-color: #353430;
+    --shadow-color: #FF8DCB;
+    --bg-title-color: #FF8DCB;
+    --content-title-color: #353430;
+    --text-color: #353430;
+  }
+  .header-decor {
+    display: none;
   }
 }

@@ -10,4 +10,12 @@
   */
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --main-font-size: 18px;
+  --text-color: #F1B2CE;
+  --adaptive-paddings: 10px;
+  --content-header-color: #FF0070;
+  --content-title-color: #000028;
+  --bg-title-color: #FF0070;
 }
