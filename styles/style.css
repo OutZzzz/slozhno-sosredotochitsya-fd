@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   position: relative;
   font-family: 'IBM Plex mono', sans-serif;
@@ -83,12 +81,12 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 40%);
+  border: 1px solid rgb(255 0 112 / 0.4);
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
-  pointer-events: none
+  pointer-events: none;
 }
 
 .header__theme-menu-button:focus {
@@ -202,8 +200,8 @@
   font-weight: 400;
 }
 
-.content-section:nth-of-type(3) 
-.content__section-title.title-decor:not(.subtitle) {
+.content-section:nth-of-type(3)
+  .content__section-title.title-decor:not(.subtitle) {
   margin-bottom: 10px;
 }
 
@@ -211,8 +209,6 @@
   display: grid;
   gap: 10px;
 }
-
-
 
 .content__section-image {
   display: block;
@@ -249,7 +245,7 @@
 
 /* Медиазапросы */
 
-@media (min-width:  768px) {
+@media (min-width: 768px) {
   .header,
   .content,
   .footer {
@@ -260,7 +256,7 @@
     padding-top: 60px;
     padding-bottom: 54px;
   }
-  
+
   .content-section {
     grid-template-columns: repeat(3, 1fr);
     margin-block-end: 80px;
@@ -306,9 +302,9 @@
   }
 
   .content__section__gallery-container {
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .content__section__gallery-container .content__section-title {
     grid-column: 1 / 4;
   }
@@ -353,7 +349,7 @@
     justify-self: center;
     align-self: start;
   }
-  
+
   .header-description {
     max-inline-size: 491px;
   }
@@ -381,5 +377,4 @@
   .content-section:nth-child(3) .content__section-body {
     padding-left: 0;
   }
-
 }
