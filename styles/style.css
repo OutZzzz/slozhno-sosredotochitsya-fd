@@ -113,8 +113,6 @@
 
 /* конец блока header */
 
-/* начало блока content */
-
 .title-decor {
   justify-self: end;
   align-self: center;
@@ -125,6 +123,8 @@
   text-align: left;
   background-color: var(--bg-title-color);
 }
+
+/* начало блока content */
 
 .content {
   padding: 40px var(--adaptive-paddings) 34px;
