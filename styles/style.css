@@ -19,6 +19,7 @@
 }
 
 .header-decor {
+  display: var(--decor-display);
   position: absolute;
   top: calc(2px + var(--adaptive-paddings));
   right: calc(27px + var(--adaptive-paddings));

@@ -11,8 +11,5 @@
   --bg-title-color: #FF0070;
   --shadow-color: #FF0070;
   --menu-button-hover-color: rgba(255 0 112 / 0.4);
-}
-
-html.theme-dark .header-decor {
-  display: initial;
+  --decor-display: initial;
 }
