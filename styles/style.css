@@ -6,6 +6,7 @@
   background-image: var(--bg-image);
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .header {
@@ -109,6 +110,7 @@
 
 .header-description {
   max-inline-size: 355px;
+  padding-right: 50px;
 }
 
 /* конец блока header */
@@ -128,7 +130,6 @@
 
 .content {
   padding: 40px var(--adaptive-paddings) 34px;
-  background-color: var(--bg-color);
 }
 
 .content-section {
@@ -225,7 +226,6 @@
   position: relative;
   display: grid;
   padding: var(--adaptive-paddings);
-  background-color: var(--bg-color);
   block-size: 100vh;
   min-block-size: 667px;
 }
@@ -353,6 +353,7 @@
 
   .header-description {
     max-inline-size: 491px;
+    padding-right: 0;
   }
 
   .content-section:nth-child(1) .content__section-body {
