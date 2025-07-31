@@ -11,3 +11,7 @@
   --bg-title-color: #FF0070;
   --shadow-color: #FF0070;
 }
+
+html.theme-dark .header-decor {
+  display: initial;
+}
