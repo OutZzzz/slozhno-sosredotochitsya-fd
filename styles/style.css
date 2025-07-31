@@ -5,8 +5,8 @@
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -19,10 +19,10 @@
 }
 
 .header-decor {
-  display: var(--decor-display);
   position: absolute;
   top: calc(2px + var(--adaptive-paddings));
   right: calc(27px + var(--adaptive-paddings));
+  display: var(--decor-display);
   color: var(--accent-color);
   text-transform: uppercase;
 }
@@ -110,8 +110,8 @@
 }
 
 .header-description {
-  max-inline-size: 355px;
   padding-right: 50px;
+  max-inline-size: 355px;
 }
 
 /* конец блока header */
@@ -270,7 +270,7 @@
 
   .header__title {
     margin-left: -16px;
-    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header-description {
@@ -330,7 +330,7 @@
 @media (min-width: 1024px) {
   .header__title,
   .footer_title {
-   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
+   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header__theme-menu-list {
@@ -343,8 +343,8 @@
   }
 
   .header-description {
-    max-inline-size: 491px;
     padding-right: 0;
+    max-inline-size: 491px;
   }
 
   .content-section--questions .content__section-body,
