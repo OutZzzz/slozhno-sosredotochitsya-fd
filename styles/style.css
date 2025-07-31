@@ -82,11 +82,11 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgb(255 0 112 / 0.4);
+  border: 1px solid var(--menu-button-hover-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid currentColor;
   pointer-events: none;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .content__section__paragraph-link:hover {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid currentColor;
 }
 
 .content__section__paragraph-link:focus {

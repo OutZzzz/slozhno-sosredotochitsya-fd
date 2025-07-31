@@ -7,13 +7,11 @@
   --bg-title-color: #FF8DCB;
   --content-title-color: #353430;
   --text-color: #353430;
+  --menu-button-hover-color: rgba(50, 49, 45, 0.4);
 }
 
 html.theme-light .header-decor {
   display: none;
-}
-html.theme-light .header__theme-menu-button:hover {
-  border-color:rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -26,6 +24,7 @@ html.theme-light .header__theme-menu-button:hover {
     --bg-title-color: #FF8DCB;
     --content-title-color: #353430;
     --text-color: #353430;
+    --menu-button-hover-color: rgba(50, 49, 45, 0.4);
   }
   .header-decor {
     display: none;
